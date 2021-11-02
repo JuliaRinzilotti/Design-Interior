@@ -1,0 +1,297 @@
+/* ================= General ================= */
+
+/* ------------- Fonts ------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Lora', serif;
+font-family: 'Work Sans', sans-serif; */
+
+/* Farbe: #2e2e2e / #fff / #000 / #1d2c2f   */
+
+/* ------------- General Styles ------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    width: 1440px;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 4rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-top: 2rem;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 3rem;
+    padding-bottom: 2rem;
+    letter-spacing: 1px;
+}
+
+/* ================= HEADER ================= */
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 7rem;
+    font-weight: 450;
+    letter-spacing: 8px;
+    padding-bottom: 0.7rem;
+}
+
+header {
+    display: flex;
+    background: url("../img/design-interior-1.jpg") right  no-repeat;
+    background-size: 58%;
+}
+
+header > section:nth-of-type(1) {
+    text-align: center;
+    padding: 29rem 0 28rem 0;
+    width: 42%;
+}
+
+/* ================= MAIN ================= */
+
+/* ------------- nav ------------- */
+
+nav {
+    background-color: #2e2e2e;
+    display: flex;
+    padding: 1rem 0 2rem 0;
+    position: sticky;
+    top:0px;
+}
+
+nav img {
+    width: 7%;
+    padding-left: 2rem;
+}
+
+nav div {
+    margin-left: auto;
+}
+
+nav div ul {
+    display: flex;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.7rem;
+}
+
+nav div ul li {
+    text-align: right;
+    padding: 2rem 9rem 0 8rem;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+nav div ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ------------- Section 1 ------------- */
+
+main > section:nth-of-type(1) {
+    background-color: #2e2e2e;
+    color: white;
+    display: flex;
+    padding: 15rem 0 14rem 0;
+}
+
+main > section:nth-of-type(1) article:nth-of-type(1) img {
+    width: 78rem;
+}
+
+main > section:nth-of-type(1) article:nth-of-type(2) {
+    width: 39vw;
+    margin: 0 auto;
+    padding-top: 5.5rem;
+}
+
+main > section:nth-of-type(1) article:nth-of-type(2) h2 {
+    text-align: center;
+}
+
+/* ------------- Section 2 ------------- */
+
+main section:nth-of-type(2) {
+    color: #2e2e2e;
+    text-align: center;
+    padding: 20rem 0 15rem 0;
+}
+
+main section:nth-of-type(2) article:nth-of-type(1) {
+    padding-bottom: 8rem;
+}
+
+main section:nth-of-type(2) article:nth-of-type(2) {
+    display: flex;
+}
+
+main section:nth-of-type(2) article:nth-of-type(2) figure figcaption {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.75rem;
+        font-weight: 300;
+        line-height: 3rem;
+        padding-bottom: 2rem;
+        letter-spacing: 1px;
+}
+main section:nth-of-type(2) article:nth-of-type(2) figure img {
+    width: 75%;
+}
+
+/* ------------- Section 3 ------------- */
+
+main section:nth-of-type(3) {
+    background-color: #2e2e2e;
+    color: white;
+    display: flex;
+}
+
+main section:nth-of-type(3) article:nth-of-type(1) {
+    width: 54%;
+    padding: 22rem 10rem 18rem 10rem;
+}
+
+/* Form */
+
+main section:nth-of-type(3) article:nth-of-type(2) {
+    padding-left: 10rem;
+    padding-top: 16rem;
+}
+
+main section:nth-of-type(3) article:nth-of-type(2) div {
+    padding-bottom: 3rem;
+}
+
+main section:nth-of-type(3) article:nth-of-type(2) label {
+    font-family: 'Lora', serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-top: 2rem;
+}
+
+.felder {
+    width: 36rem; 
+}
+
+::placeholder {
+    font-size: 0.8rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Button in Form */
+
+.btn {
+    width: 5rem;
+    height: 2.5rem;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    background-color: #1d2c2f;
+    color: white;
+    display: flex;
+    padding: 1rem 5rem 3rem 5rem;
+}
+
+footer article:nth-of-type(1) {
+    /* flex-basis: 100%;    */
+    margin-right: auto;
+}
+
+footer article:nth-of-type(2) {
+    /* flex-basis: 100%;    */
+    /* justify-content: center; */
+    margin: 0 auto;
+}
+
+footer article:nth-of-type(3) {
+    /* flex-basis: 100%;    */
+    /* justify-content: flex-end; */
+    margin-left: auto;
+} 
+
+footer article:nth-of-type(3) ul li {
+    display: inline-block;
+    padding: 0 0 0 1.5rem;
+}
+
+footer article:nth-of-type(3) ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ================= M E D I A - Q U E R I E S ================= */
+
+/* @media screen and (max-width:600px) {
+
+nav {
+    display: none;
+}
+main section {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+header section:nth-of-type(2) img {
+    width: 100vw; 
+}
+
+main section {
+    display: block;
+}
+
+footer article h3 {
+    display: block;
+    text-align: center;
+}
+
+footer article ul {
+    justify-content: center;
+}
+
+} */
+
+/* 
+    img {
+        width: 100vw;
+    }
+
+    section:nth-of-type(2) article figure img{
+        width: 100vw;
+    }
+ */
+
+    /* section article figure img {
+        width: 100vw;;
+    } */
+
